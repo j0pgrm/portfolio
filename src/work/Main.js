@@ -1,5 +1,9 @@
 import React, { useRef } from 'react'; 
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'; 
+import jauntyimg from './images/jaunty-img.png'; 
+import languagestatsimg from './images/language-stats-img.png'; 
+import cudilcarimg from './images/cudil-car-img.png'; 
+import fotproimg from './images/fotpro-img.png'; 
 
 function Main() { 
 
@@ -28,10 +32,10 @@ function Main() {
                 <div className="container">
 
                     {/*<!-- Logo -->*/}
-                    <h1 id="logo"><a href="index.html">Jason Rubio</a></h1>
+                    <h1 id="logo"><a>Jason Rubio</a></h1>
                     <p>FrontEnd Developer</p>
 
-                    <a alt="" rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1cuPjpGv5Xvejqkg7CsOZqQKx5doVh6JarbaTS5aYUi0/edit?usp=sharing">resume</a>
+                    <a alt="" rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1wVEcEROOtQgSC4JzNx_fpN59qgA5wIa8QzeQquyTpU0/edit?usp=sharing">resume</a>
 
                 </div>
             </section>
@@ -57,21 +61,21 @@ function Main() {
                     <div className="row aln-center">
 
                         <div className="col-4 col-6-medium col-12-small">
-                            {/*<!-- Movie Rate -->*/}
+                            {/*<!-- FotPro -->*/}
                             <section>
                                 <a className="image featured">
-                                    <img alt="" src='movie-rate.png' />
+                                    <img alt="" src={fotproimg} />
                                 </a>
                                 <header>
-                                    <h3>Movie Rate</h3>
+                                    <h3>FotPro</h3>
                                 </header>
                                 <div className="col-12">
                                     <ul className="actions">
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Movie__Rate/" className="button icon solid fa-file">Go To App</a>
+                                            <a rel="noreferrer" target="_blank" href="https://j0pgrm.github.io/FotPro/" className="button icon solid fa-file">Go To App</a>
                                         </li> 
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Movie__Rate" className="button icon solid fa-file">Source</a>
+                                            <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm/FotPro" className="button icon solid fa-file">Source</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -79,21 +83,21 @@ function Main() {
                         </div>
 
                         <div className="col-4 col-6-medium col-12-small">
-                            {/*<!-- Soccer Way -->*/}
+                            {/*<!-- Jaunty -->*/}
                             <section>
                                 <a className="image featured">
-                                    <img src="soccer-way.png" alt="" />
+                                    <img alt ="" src={jauntyimg} />
                                 </a>
                                 <header>
-                                    <h3>Soccer Way</h3>
+                                    <h3>Jaunty</h3>
                                 </header>
                                 <div className="col-12">
                                     <ul className="actions">
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Soccer-Way/" className="button icon solid fa-file">Go To App</a>
+                                            <a rel="noreferrer" target="_blank" href="https://j0pgrm.github.io/around-world/" className="button icon solid fa-file">Go To App</a>
                                         </li> 
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Soccer-Way" className="button icon solid fa-file">Source</a>
+                                            <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm/around-world" className="button icon solid fa-file">Source</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -104,7 +108,7 @@ function Main() {
                             {/*<!-- Cudil Car -->*/}
                             <section>
                                 <a className="image featured">
-                                    <img src="cudil-car.png" alt="" />
+                                    <img alt="" src={cudilcarimg} />
                                 </a>
                                 <header>
                                     <h3>Cudil Car</h3>
@@ -112,32 +116,10 @@ function Main() {
                                 <div className="col-12">
                                     <ul className="actions">
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Cudil-Car/" className="button icon solid fa-file">Go To App</a>
+                                            <a rel="noreferrer" target="_blank" href="https://j0pgrm.github.io/Cudil-Car/" className="button icon solid fa-file">Go To App</a>
                                         </li> 
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Cudil-Car" className="button icon solid fa-file">Source</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div className="col-4 col-6-medium col-12-small">
-                            {/*<!-- Gym Pro -->*/}
-                            <section>
-                                <a className="image featured">
-                                    <img alt="" src='gym-pro.png' />
-                                </a>
-                                <header>
-                                    <h3>Gym Pro</h3>
-                                </header>
-                                <div className="col-12">
-                                    <ul className="actions">
-                                        <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Gym__Pro/" className="button icon solid fa-file">Go To App</a>
-                                        </li> 
-                                        <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Gym__Pro" className="button icon solid fa-file">Source</a>
+                                            <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm/Cudil-Car" className="button icon solid fa-file">Source</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -148,7 +130,7 @@ function Main() {
                             {/*<!-- Language Stats -->*/}
                             <section>
                                 <a className="image featured">
-                                    <img alt="" src='language-stats.png' />
+                                    <img alt="" src={languagestatsimg} />
                                 </a>
                                 <header>
                                     <h3>Language Stats</h3>
@@ -156,38 +138,16 @@ function Main() {
                                 <div className="col-12">
                                     <ul className="actions">
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Language-Stats/" className="button icon solid fa-file">Go To App</a>
+                                            <a rel="noreferrer" target="_blank" href="https://j0pgrm.github.io/language-stats/" className="button icon solid fa-file">Go To App</a>
                                         </li> 
                                         <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Language-Stats" className="button icon solid fa-file">Source</a>
+                                            <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm/language-stats" className="button icon solid fa-file">Source</a>
                                         </li>
                                     </ul>
                                 </div>
                             </section>
                         </div>
-
-                        <div className="col-4 col-6-medium col-12-small">
-                            {/*<!-- HyWave -->*/}
-                            <section>
-                                <a className="image featured">
-                                    <img alt="" src='hywave.png' />
-                                </a>
-                                <header>
-                                    <h3>HyWave</h3>
-                                </header>
-                                <div className="col-12">
-                                    <ul className="actions">
-                                        <li>
-                                            <a rel="noreferrer" target="_blank" href="https://rubiojason.github.io/Hy_Wave/" className="button icon solid fa-file">Go To App</a>
-                                        </li> 
-                                        <li>
-                                            <a rel="noreferrer" target="_blank" href="https://github.com/rubiojason/Hy_Wave" className="button icon solid fa-file">Source</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </div>
-
+                        
                     </div>
                 </div>
             </section>
@@ -242,15 +202,15 @@ function Main() {
                                         <ul className="icons">
                                             <li className="icon solid fa-home">
                                                 <strong>Email: </strong>
-                                                rubiojason542@gmail.com
+                                                j0pgrm@gmail.com
                                             </li>
                                             <li className="icon solid fa-phone">
                                                 <strong>GitHub: </strong> 
-                                                github.com/rubiojason
+                                                <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm">github.com/j0pgrm</a>
                                             </li>
                                             <li className="icon solid fa-envelope">
                                                 <strong>LinkedIn: </strong>
-                                                <a href="#">linkedin.com</a>
+                                                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jason-rubio-843039245/">linkedin.com</a>
                                             </li>
                                         </ul>
                                     </div>
