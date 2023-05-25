@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'; 
-import emailjs from 'emailjs-com'; 
+import emailjs from 'emailjs-com';
 import jauntyimg from './images/jaunty-img.png'; 
 import languagestatsimg from './images/language-stats-img.png'; 
 import cudilcarimg from './images/cudil-car-img.png'; 
@@ -14,7 +14,7 @@ function Main() {
     const sendEmail = e => {
         e.preventDefault(); 
 
-        emailjs.sendForm('service_2mkcyp4', 'template_jzfcuv8', form.current, 'user_87LwdR5EBeF58IAIGpapv')
+        emailjs.sendForm('service_cwscxsb', 'template_8yye40g', form.current, 'YlIiN7f_r-mbQ4Q6G')
         .then((res) => {
             console.log(res.text); 
             console.log("success");  
@@ -153,7 +153,7 @@ function Main() {
             </section>
 
             <section id="features" style={{borderTop: 'solid 2px #e5e5e5'}}>
-                <div calssName="container">
+                <div className="container">
                     <header>
                         <h2>Skills</h2>
                     </header>
@@ -202,7 +202,7 @@ function Main() {
                                         <ul className="icons">
                                             <li className="icon solid fa-home">
                                                 <strong>Email: </strong>
-                                                j0pgrm@gmail.com
+                                                jrubio.wr@gmail.com
                                             </li>
                                             <li className="icon solid fa-phone">
                                                 <strong>GitHub: </strong> 
