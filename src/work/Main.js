@@ -201,15 +201,15 @@ function Main() {
                                     <div className="col-6 col-12-small">
                                         <ul className="icons">
                                             <li className="icon solid fa-home">
-                                                <strong>Email: </strong>
+                                                <strong>Email:</strong>
                                                 jrubio.wr@gmail.com
                                             </li>
                                             <li className="icon solid fa-phone">
-                                                <strong>GitHub: </strong> 
+                                                <strong>GitHub:</strong> 
                                                 <a rel="noreferrer" target="_blank" href="https://github.com/j0pgrm">github.com/j0pgrm</a>
                                             </li>
                                             <li className="icon solid fa-envelope">
-                                                <strong>LinkedIn: </strong>
+                                                <strong>LinkedIn:</strong>
                                                 <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jason-rubio-843039245/">linkedin.com</a>
                                             </li>
                                         </ul>
